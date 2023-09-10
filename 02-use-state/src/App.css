@@ -45,3 +45,22 @@
     border-radius: 8px;
     padding: 3px;
 }
+
+.label-green {
+    background-color: green;
+}
+
+hr {
+    width: 50%;
+    margin: 8px 0;
+}
+
+.btn {
+    background-color: #a9f3b8;
+    color: #282c34;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+}
