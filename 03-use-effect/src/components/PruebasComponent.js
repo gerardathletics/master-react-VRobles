@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export const PruebasComponent = () => {
     const [user, setUser] = useState('Gerard');
@@ -6,6 +6,10 @@ export const PruebasComponent = () => {
     const modUser = (e) => {
         setUser(e.target.value);
     };
+
+    useEffect(() => {
+        console.log('Has cargado el componente');
+    }, [user]);
 
     return (
         <div>
