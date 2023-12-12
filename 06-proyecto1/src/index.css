@@ -217,3 +217,9 @@ input[type='button'] {
         width: 80%;
     }
 }
+
+.not-found {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ac6161;
+}
